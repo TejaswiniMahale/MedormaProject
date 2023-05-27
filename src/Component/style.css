@@ -1,0 +1,189 @@
+.navbar{
+    position: relative;
+    width: 100%;
+    background: #F0F8FF;
+box-shadow: 0px 4px 8px -2px rgba(154, 154, 154, 0.25);
+}
+.navbar>div{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #004F95;
+padding: 20px;
+}
+.navbar>p{
+    position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #004F95;
+right: 60px;
+top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 94px 25px 128px;
+    background: #F0F8FF;
+    box-shadow: 0px -4px 8px -2px rgba(154, 154, 154, 0.25);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A2A2A;
+}
+.footer>div{
+    display: flex;
+    gap: 60px;
+}
+.Main_flex{
+    display: flex;
+    font-family: 'Poppins';
+font-style: normal;
+justify-content: space-between;
+padding: 32px 50px;
+gap: 60px;
+}
+.Main_flex>div{
+    width: 50%;
+}
+.features{
+    background: #004F95;
+box-shadow: 0px 4px 8px -2px rgba(0, 79, 149, 0.25);
+border-radius: 30px;
+color: #F0F8FF;
+padding: 36px 80px;
+}
+.features_h{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 0%;
+    text-align: center;
+}
+.features_ele{
+    display: flex;
+    gap: 36px;
+    padding-top: 30px;
+}
+.features_p1{
+    font-weight: 600;
+font-size: 32px;
+line-height: 0%;
+}
+.features_p2{
+    font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+}
+.features_ele>img{
+    width: 88px;
+height: 88px;
+margin-top: 20px;
+background: #FFFFFF;
+box-shadow: 0px 0px 4px rgba(74, 74, 74, 0.25);
+border-radius: 5px;
+}
+.signin_form{
+    background: #F0F8FF;
+box-shadow: 0px 4px 8px -2px rgba(0, 79, 149, 0.25);
+border-radius: 30px;
+font-family: 'Poppins';
+font-style: normal;
+padding: 32px 38px;
+}
+.form_h{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #F78117;
+text-align: center;
+}
+.form_h2{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #004F95;
+}
+.form_line{
+    border-bottom: 0.3px solid #7A7A7A;;
+}
+.sigin_main_form{
+    /* width: 500px; */
+    padding: 20px 70px;
+}
+.form_label{
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-transform: capitalize;
+color: #2A2A2A;
+}
+.forgot_password{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+color: #E12C33;
+}
+.siginin_btn{
+    background: #004F95;
+box-shadow: 0px 4px 4px -2px rgba(0, 79, 149, 0.25);
+border-radius: 5px;
+width: 100%;
+height: 52px;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+border: none;
+}
+.from_info{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #7A7A7A;
+}
+.sigin_main_form>input{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #9A9A9A;
+opacity: 0.5;
+background: #FFFFFF;
+box-shadow: 2px 2px 8px -2px rgba(0, 79, 149, 0.1);
+border-radius: 5px;
+width: 100%;
+height: 52px;
+padding-left: 20px;
+}
+
+.download_container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #004F95;
+    gap: 40px;
+    padding: 70px 20px 150px 20px;
+}
+.download_container>div{
+    display: flex;
+    gap: 30px;
+}
+.download_container>div>img{
+    width: 183.27px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
